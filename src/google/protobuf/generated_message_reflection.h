@@ -347,7 +347,7 @@ void PROTOBUF_EXPORT AssignDescriptors(const DescriptorTable* table,
 // binary size.
 Metadata PROTOBUF_EXPORT AssignDescriptors(const DescriptorTable* (*table)(),
                                            absl::once_flag* once,
-                                           const Metadata& metadata);
+                                           const Metadata& metadata, ...);
 
 // These cannot be in lite so we put them in the reflection.
 PROTOBUF_EXPORT void UnknownFieldSetSerializer(const uint8_t* base,

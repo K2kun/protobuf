@@ -574,6 +574,8 @@ void FileGenerator::GenerateSourceDefaultInstance(int idx, io::Printer* p) {
         {
             {"type", DefaultInstanceType(generator->descriptor(), options_)},
             {"name", DefaultInstanceName(generator->descriptor(), options_)},
+            {"section",
+             DefaultInstanceSection(generator->descriptor(), options_)},
             {"class", ClassName(generator->descriptor())},
         },
         R"cc(
@@ -591,13 +593,16 @@ void FileGenerator::GenerateSourceDefaultInstance(int idx, io::Printer* p) {
           };
 
           PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-              PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 $type$ $name$;
+              PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 $type$ $name$
+                  PROTOBUF_DEFAULT_INSTANCE_SECTION($section$);
         )cc");
   } else {
     p->Emit(
         {
             {"type", DefaultInstanceType(generator->descriptor(), options_)},
             {"name", DefaultInstanceName(generator->descriptor(), options_)},
+            {"section",
+             DefaultInstanceSection(generator->descriptor(), options_)},
             {"class", ClassName(generator->descriptor())},
         },
         R"cc(
@@ -610,7 +615,8 @@ void FileGenerator::GenerateSourceDefaultInstance(int idx, io::Printer* p) {
           };
 
           PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-              PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 $type$ $name$;
+              PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 $type$ $name$
+                  PROTOBUF_DEFAULT_INSTANCE_SECTION($section$);
         )cc");
   }
 
@@ -948,6 +954,29 @@ void FileGenerator::GenerateReflectionInitializationCode(io::Printer* p) {
                  offset += offsets[i].first;
                }
              }},
+            {"section_starts",
+             [&] {
+               p->Emit("extern \"C\" {\n");
+               for (auto& gen : message_generators_) {
+                 p->Emit({{"declaration", DefaultInstanceSectionDeclaration(
+                                              gen->descriptor(), options_)}},
+                         R"cc($declaration$;)cc");
+               }
+               p->Emit("}\n");
+             }},
+            {"weak_defaults",
+             [&] {
+               for (auto& gen : message_generators_) {
+                 p->Emit(
+                     {
+                         {"section",
+                          DefaultInstanceSection(gen->descriptor(), options_)},
+                     },
+                     R"cc(
+                       &__start_$section$,
+                     )cc");
+               }
+             }},
             {"defaults",
              [&] {
                for (auto& gen : message_generators_) {
@@ -973,8 +1002,16 @@ void FileGenerator::GenerateReflectionInitializationCode(io::Printer* p) {
                   $schemas$,
           };
 
-          static const ::_pb::Message* const file_default_instances[] = {
+#if defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
+          $section_starts$;
+#endif  // defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
+
+          static const ::_pb::Message* file_default_instances[] = {
+#if defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
+              $weak_defaults$,
+#else   // defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
               $defaults$,
+#endif  // defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
           };
         )cc");
   } else {

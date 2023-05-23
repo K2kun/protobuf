@@ -42,7 +42,8 @@ struct FileDescriptorSetDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FileDescriptorSetDefaultTypeInternal _FileDescriptorSet_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FileDescriptorSetDefaultTypeInternal _FileDescriptorSet_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR FileDescriptorProto::FileDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -88,7 +89,8 @@ struct FileDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FileDescriptorProtoDefaultTypeInternal _FileDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FileDescriptorProtoDefaultTypeInternal _FileDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_1_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR DescriptorProto_ExtensionRange::DescriptorProto_ExtensionRange(::_pbi::ConstantInitialized)
     : _impl_{
@@ -112,7 +114,8 @@ struct DescriptorProto_ExtensionRangeDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DescriptorProto_ExtensionRangeDefaultTypeInternal _DescriptorProto_ExtensionRange_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DescriptorProto_ExtensionRangeDefaultTypeInternal _DescriptorProto_ExtensionRange_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_2_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR DescriptorProto_ReservedRange::DescriptorProto_ReservedRange(::_pbi::ConstantInitialized)
     : _impl_{
@@ -135,7 +138,8 @@ struct DescriptorProto_ReservedRangeDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DescriptorProto_ReservedRangeDefaultTypeInternal _DescriptorProto_ReservedRange_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DescriptorProto_ReservedRangeDefaultTypeInternal _DescriptorProto_ReservedRange_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_1_2_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR DescriptorProto::DescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -169,7 +173,8 @@ struct DescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DescriptorProtoDefaultTypeInternal _DescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 DescriptorProtoDefaultTypeInternal _DescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_2_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR ExtensionRangeOptions_Declaration::ExtensionRangeOptions_Declaration(::_pbi::ConstantInitialized)
     : _impl_{
@@ -202,7 +207,8 @@ struct ExtensionRangeOptions_DeclarationDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ExtensionRangeOptions_DeclarationDefaultTypeInternal _ExtensionRangeOptions_Declaration_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ExtensionRangeOptions_DeclarationDefaultTypeInternal _ExtensionRangeOptions_Declaration_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_3_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR ExtensionRangeOptions::ExtensionRangeOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -227,7 +233,8 @@ struct ExtensionRangeOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ExtensionRangeOptionsDefaultTypeInternal _ExtensionRangeOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ExtensionRangeOptionsDefaultTypeInternal _ExtensionRangeOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_3_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR FieldDescriptorProto::FieldDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -274,7 +281,8 @@ struct FieldDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FieldDescriptorProtoDefaultTypeInternal _FieldDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FieldDescriptorProtoDefaultTypeInternal _FieldDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_4_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR OneofDescriptorProto::OneofDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -300,7 +308,8 @@ struct OneofDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 OneofDescriptorProtoDefaultTypeInternal _OneofDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 OneofDescriptorProtoDefaultTypeInternal _OneofDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_5_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR EnumDescriptorProto_EnumReservedRange::EnumDescriptorProto_EnumReservedRange(::_pbi::ConstantInitialized)
     : _impl_{
@@ -323,7 +332,8 @@ struct EnumDescriptorProto_EnumReservedRangeDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumDescriptorProto_EnumReservedRangeDefaultTypeInternal _EnumDescriptorProto_EnumReservedRange_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumDescriptorProto_EnumReservedRangeDefaultTypeInternal _EnumDescriptorProto_EnumReservedRange_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_6_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR EnumDescriptorProto::EnumDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -352,7 +362,8 @@ struct EnumDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumDescriptorProtoDefaultTypeInternal _EnumDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumDescriptorProtoDefaultTypeInternal _EnumDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_6_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR EnumValueDescriptorProto::EnumValueDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -379,7 +390,8 @@ struct EnumValueDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumValueDescriptorProtoDefaultTypeInternal _EnumValueDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumValueDescriptorProtoDefaultTypeInternal _EnumValueDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_7_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR ServiceDescriptorProto::ServiceDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -406,7 +418,8 @@ struct ServiceDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ServiceDescriptorProtoDefaultTypeInternal _ServiceDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ServiceDescriptorProtoDefaultTypeInternal _ServiceDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_8_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR MethodDescriptorProto::MethodDescriptorProto(::_pbi::ConstantInitialized)
     : _impl_{
@@ -442,7 +455,8 @@ struct MethodDescriptorProtoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MethodDescriptorProtoDefaultTypeInternal _MethodDescriptorProto_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MethodDescriptorProtoDefaultTypeInternal _MethodDescriptorProto_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_9_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR FileOptions::FileOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -515,7 +529,8 @@ struct FileOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FileOptionsDefaultTypeInternal _FileOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FileOptionsDefaultTypeInternal _FileOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_10_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR MessageOptions::MessageOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -543,7 +558,8 @@ struct MessageOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MessageOptionsDefaultTypeInternal _MessageOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MessageOptionsDefaultTypeInternal _MessageOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_11_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR FieldOptions::FieldOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -577,7 +593,8 @@ struct FieldOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FieldOptionsDefaultTypeInternal _FieldOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 FieldOptionsDefaultTypeInternal _FieldOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_12_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR OneofOptions::OneofOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -599,7 +616,8 @@ struct OneofOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 OneofOptionsDefaultTypeInternal _OneofOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 OneofOptionsDefaultTypeInternal _OneofOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_13_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR EnumOptions::EnumOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -625,7 +643,8 @@ struct EnumOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumOptionsDefaultTypeInternal _EnumOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumOptionsDefaultTypeInternal _EnumOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_14_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR EnumValueOptions::EnumValueOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -649,7 +668,8 @@ struct EnumValueOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumValueOptionsDefaultTypeInternal _EnumValueOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 EnumValueOptionsDefaultTypeInternal _EnumValueOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_15_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR ServiceOptions::ServiceOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -673,7 +693,8 @@ struct ServiceOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ServiceOptionsDefaultTypeInternal _ServiceOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 ServiceOptionsDefaultTypeInternal _ServiceOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_16_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR MethodOptions::MethodOptions(::_pbi::ConstantInitialized)
     : _impl_{
@@ -698,7 +719,8 @@ struct MethodOptionsDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MethodOptionsDefaultTypeInternal _MethodOptions_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 MethodOptionsDefaultTypeInternal _MethodOptions_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_17_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR UninterpretedOption_NamePart::UninterpretedOption_NamePart(::_pbi::ConstantInitialized)
     : _impl_{
@@ -724,7 +746,8 @@ struct UninterpretedOption_NamePartDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 UninterpretedOption_NamePartDefaultTypeInternal _UninterpretedOption_NamePart_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 UninterpretedOption_NamePartDefaultTypeInternal _UninterpretedOption_NamePart_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_18_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR UninterpretedOption::UninterpretedOption(::_pbi::ConstantInitialized)
     : _impl_{
@@ -761,7 +784,8 @@ struct UninterpretedOptionDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 UninterpretedOptionDefaultTypeInternal _UninterpretedOption_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 UninterpretedOptionDefaultTypeInternal _UninterpretedOption_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_18_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR SourceCodeInfo_Location::SourceCodeInfo_Location(::_pbi::ConstantInitialized)
     : _impl_{
@@ -795,7 +819,8 @@ struct SourceCodeInfo_LocationDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SourceCodeInfo_LocationDefaultTypeInternal _SourceCodeInfo_Location_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SourceCodeInfo_LocationDefaultTypeInternal _SourceCodeInfo_Location_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_19_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR SourceCodeInfo::SourceCodeInfo(::_pbi::ConstantInitialized)
     : _impl_{
@@ -816,7 +841,8 @@ struct SourceCodeInfoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SourceCodeInfoDefaultTypeInternal _SourceCodeInfo_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 SourceCodeInfoDefaultTypeInternal _SourceCodeInfo_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_19_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR GeneratedCodeInfo_Annotation::GeneratedCodeInfo_Annotation(::_pbi::ConstantInitialized)
     : _impl_{
@@ -846,7 +872,8 @@ struct GeneratedCodeInfo_AnnotationDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 GeneratedCodeInfo_AnnotationDefaultTypeInternal _GeneratedCodeInfo_Annotation_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 GeneratedCodeInfo_AnnotationDefaultTypeInternal _GeneratedCodeInfo_Annotation_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_0_20_google_2fprotobuf_2fdescriptor_2eproto);
         template <typename>
 PROTOBUF_CONSTEXPR GeneratedCodeInfo::GeneratedCodeInfo(::_pbi::ConstantInitialized)
     : _impl_{
@@ -867,7 +894,8 @@ struct GeneratedCodeInfoDefaultTypeInternal {
 };
 
 PROTOBUF_ATTRIBUTE_NO_DESTROY PROTOBUF_CONSTINIT
-    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 GeneratedCodeInfoDefaultTypeInternal _GeneratedCodeInfo_default_instance_;
+    PROTOBUF_ATTRIBUTE_INIT_PRIORITY1 GeneratedCodeInfoDefaultTypeInternal _GeneratedCodeInfo_default_instance_
+        PROTOBUF_DEFAULT_INSTANCE_SECTION(pb_def_20_google_2fprotobuf_2fdescriptor_2eproto);
 }  // namespace protobuf
 }  // namespace google
 static ::_pb::Metadata file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[28];
@@ -1414,7 +1442,42 @@ static const ::_pbi::MigrationSchema
         {495, -1, -1, sizeof(::google::protobuf::GeneratedCodeInfo)},
 };
 
-static const ::_pb::Message* const file_default_instances[] = {
+#if defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
+extern "C" {
+extern __attribute__((weak)) const ::google::protobuf::FileDescriptorSet __start_pb_def_0_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::FileDescriptorProto __start_pb_def_1_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::DescriptorProto_ExtensionRange __start_pb_def_0_2_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::DescriptorProto_ReservedRange __start_pb_def_1_2_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::DescriptorProto __start_pb_def_2_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::ExtensionRangeOptions_Declaration __start_pb_def_0_3_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::ExtensionRangeOptions __start_pb_def_3_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::FieldDescriptorProto __start_pb_def_4_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::OneofDescriptorProto __start_pb_def_5_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::EnumDescriptorProto_EnumReservedRange __start_pb_def_0_6_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::EnumDescriptorProto __start_pb_def_6_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::EnumValueDescriptorProto __start_pb_def_7_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::ServiceDescriptorProto __start_pb_def_8_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::MethodDescriptorProto __start_pb_def_9_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::FileOptions __start_pb_def_10_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::MessageOptions __start_pb_def_11_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::FieldOptions __start_pb_def_12_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::OneofOptions __start_pb_def_13_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::EnumOptions __start_pb_def_14_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::EnumValueOptions __start_pb_def_15_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::ServiceOptions __start_pb_def_16_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::MethodOptions __start_pb_def_17_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::UninterpretedOption_NamePart __start_pb_def_0_18_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::UninterpretedOption __start_pb_def_18_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::SourceCodeInfo_Location __start_pb_def_0_19_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::SourceCodeInfo __start_pb_def_19_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::GeneratedCodeInfo_Annotation __start_pb_def_0_20_google_2fprotobuf_2fdescriptor_2eproto;;extern __attribute__((weak)) const ::google::protobuf::GeneratedCodeInfo __start_pb_def_20_google_2fprotobuf_2fdescriptor_2eproto;;}
+#endif  // defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
+
+static const ::_pb::Message* file_default_instances[] = {
+#if defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
+    &__start_pb_def_0_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_1_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_0_2_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_1_2_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_2_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_0_3_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_3_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_4_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_5_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_0_6_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_6_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_7_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_8_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_9_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_10_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_11_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_12_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_13_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_14_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_15_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_16_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_17_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_0_18_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_18_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_0_19_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_19_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_0_20_google_2fprotobuf_2fdescriptor_2eproto,
+    &__start_pb_def_20_google_2fprotobuf_2fdescriptor_2eproto,
+#else   // defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
     &::google::protobuf::_FileDescriptorSet_default_instance_._instance,
     &::google::protobuf::_FileDescriptorProto_default_instance_._instance,
     &::google::protobuf::_DescriptorProto_ExtensionRange_default_instance_._instance,
@@ -1443,6 +1506,7 @@ static const ::_pb::Message* const file_default_instances[] = {
     &::google::protobuf::_SourceCodeInfo_default_instance_._instance,
     &::google::protobuf::_GeneratedCodeInfo_Annotation_default_instance_._instance,
     &::google::protobuf::_GeneratedCodeInfo_default_instance_._instance,
+#endif  // defined(PROTOBUF_ENABLE_WEAK_DEFAULT_SECTIONS)
 };
 const char descriptor_table_protodef_google_2fprotobuf_2fdescriptor_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
     "\n google/protobuf/descriptor.proto\022\017goog"
@@ -2180,7 +2244,8 @@ void FileDescriptorSet::InternalSwap(FileDescriptorSet* other) {
 ::google::protobuf::Metadata FileDescriptorSet::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[0]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[0],
+      &_FileDescriptorSet_default_instance_);
 }
 // ===================================================================
 
@@ -2827,7 +2892,8 @@ void FileDescriptorProto::InternalSwap(FileDescriptorProto* other) {
 ::google::protobuf::Metadata FileDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[1]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[1],
+      &_FileDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -3101,7 +3167,8 @@ void DescriptorProto_ExtensionRange::InternalSwap(DescriptorProto_ExtensionRange
 ::google::protobuf::Metadata DescriptorProto_ExtensionRange::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[2]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[2],
+      &_DescriptorProto_ExtensionRange_default_instance_);
 }
 // ===================================================================
 
@@ -3319,7 +3386,8 @@ void DescriptorProto_ReservedRange::InternalSwap(DescriptorProto_ReservedRange* 
 ::google::protobuf::Metadata DescriptorProto_ReservedRange::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[3]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[3],
+      &_DescriptorProto_ReservedRange_default_instance_);
 }
 // ===================================================================
 
@@ -3811,7 +3879,8 @@ void DescriptorProto::InternalSwap(DescriptorProto* other) {
 ::google::protobuf::Metadata DescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[4]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[4],
+      &_DescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -4191,7 +4260,8 @@ void ExtensionRangeOptions_Declaration::InternalSwap(ExtensionRangeOptions_Decla
 ::google::protobuf::Metadata ExtensionRangeOptions_Declaration::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[5]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[5],
+      &_ExtensionRangeOptions_Declaration_default_instance_);
 }
 // ===================================================================
 
@@ -4446,7 +4516,8 @@ void ExtensionRangeOptions::InternalSwap(ExtensionRangeOptions* other) {
 ::google::protobuf::Metadata ExtensionRangeOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[6]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[6],
+      &_ExtensionRangeOptions_default_instance_);
 }
 // ===================================================================
 
@@ -5050,7 +5121,8 @@ void FieldDescriptorProto::InternalSwap(FieldDescriptorProto* other) {
 ::google::protobuf::Metadata FieldDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[7]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[7],
+      &_FieldDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -5307,7 +5379,8 @@ void OneofDescriptorProto::InternalSwap(OneofDescriptorProto* other) {
 ::google::protobuf::Metadata OneofDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[8]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[8],
+      &_OneofDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -5525,7 +5598,8 @@ void EnumDescriptorProto_EnumReservedRange::InternalSwap(EnumDescriptorProto_Enu
 ::google::protobuf::Metadata EnumDescriptorProto_EnumReservedRange::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[9]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[9],
+      &_EnumDescriptorProto_EnumReservedRange_default_instance_);
 }
 // ===================================================================
 
@@ -5869,7 +5943,8 @@ void EnumDescriptorProto::InternalSwap(EnumDescriptorProto* other) {
 ::google::protobuf::Metadata EnumDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[10]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[10],
+      &_EnumDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -6162,7 +6237,8 @@ void EnumValueDescriptorProto::InternalSwap(EnumValueDescriptorProto* other) {
 ::google::protobuf::Metadata EnumValueDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[11]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[11],
+      &_EnumValueDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -6449,7 +6525,8 @@ void ServiceDescriptorProto::InternalSwap(ServiceDescriptorProto* other) {
 ::google::protobuf::Metadata ServiceDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[12]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[12],
+      &_ServiceDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -6864,7 +6941,8 @@ void MethodDescriptorProto::InternalSwap(MethodDescriptorProto* other) {
 ::google::protobuf::Metadata MethodDescriptorProto::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[13]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[13],
+      &_MethodDescriptorProto_default_instance_);
 }
 // ===================================================================
 
@@ -7837,7 +7915,8 @@ void FileOptions::InternalSwap(FileOptions* other) {
 ::google::protobuf::Metadata FileOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[14]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[14],
+      &_FileOptions_default_instance_);
 }
 // ===================================================================
 
@@ -8186,7 +8265,8 @@ void MessageOptions::InternalSwap(MessageOptions* other) {
 ::google::protobuf::Metadata MessageOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[15]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[15],
+      &_MessageOptions_default_instance_);
 }
 // ===================================================================
 
@@ -8717,7 +8797,8 @@ void FieldOptions::InternalSwap(FieldOptions* other) {
 ::google::protobuf::Metadata FieldOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[16]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[16],
+      &_FieldOptions_default_instance_);
 }
 // ===================================================================
 
@@ -8908,7 +8989,8 @@ void OneofOptions::InternalSwap(OneofOptions* other) {
 ::google::protobuf::Metadata OneofOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[17]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[17],
+      &_OneofOptions_default_instance_);
 }
 // ===================================================================
 
@@ -9208,7 +9290,8 @@ void EnumOptions::InternalSwap(EnumOptions* other) {
 ::google::protobuf::Metadata EnumOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[18]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[18],
+      &_EnumOptions_default_instance_);
 }
 // ===================================================================
 
@@ -9439,7 +9522,8 @@ void EnumValueOptions::InternalSwap(EnumValueOptions* other) {
 ::google::protobuf::Metadata EnumValueOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[19]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[19],
+      &_EnumValueOptions_default_instance_);
 }
 // ===================================================================
 
@@ -9671,7 +9755,8 @@ void ServiceOptions::InternalSwap(ServiceOptions* other) {
 ::google::protobuf::Metadata ServiceOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[20]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[20],
+      &_ServiceOptions_default_instance_);
 }
 // ===================================================================
 
@@ -9948,7 +10033,8 @@ void MethodOptions::InternalSwap(MethodOptions* other) {
 ::google::protobuf::Metadata MethodOptions::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[21]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[21],
+      &_MethodOptions_default_instance_);
 }
 // ===================================================================
 
@@ -10194,7 +10280,8 @@ void UninterpretedOption_NamePart::InternalSwap(UninterpretedOption_NamePart* ot
 ::google::protobuf::Metadata UninterpretedOption_NamePart::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[22]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[22],
+      &_UninterpretedOption_NamePart_default_instance_);
 }
 // ===================================================================
 
@@ -10619,7 +10706,8 @@ void UninterpretedOption::InternalSwap(UninterpretedOption* other) {
 ::google::protobuf::Metadata UninterpretedOption::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[23]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[23],
+      &_UninterpretedOption_default_instance_);
 }
 // ===================================================================
 
@@ -10980,7 +11068,8 @@ void SourceCodeInfo_Location::InternalSwap(SourceCodeInfo_Location* other) {
 ::google::protobuf::Metadata SourceCodeInfo_Location::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[24]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[24],
+      &_SourceCodeInfo_Location_default_instance_);
 }
 // ===================================================================
 
@@ -11151,7 +11240,8 @@ void SourceCodeInfo::InternalSwap(SourceCodeInfo* other) {
 ::google::protobuf::Metadata SourceCodeInfo::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[25]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[25],
+      &_SourceCodeInfo_default_instance_);
 }
 // ===================================================================
 
@@ -11496,7 +11586,8 @@ void GeneratedCodeInfo_Annotation::InternalSwap(GeneratedCodeInfo_Annotation* ot
 ::google::protobuf::Metadata GeneratedCodeInfo_Annotation::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[26]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[26],
+      &_GeneratedCodeInfo_Annotation_default_instance_);
 }
 // ===================================================================
 
@@ -11667,7 +11758,8 @@ void GeneratedCodeInfo::InternalSwap(GeneratedCodeInfo* other) {
 ::google::protobuf::Metadata GeneratedCodeInfo::GetMetadata() const {
   return ::_pbi::AssignDescriptors(
       &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_getter, &descriptor_table_google_2fprotobuf_2fdescriptor_2eproto_once,
-      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[27]);
+      file_level_metadata_google_2fprotobuf_2fdescriptor_2eproto[27],
+      &_GeneratedCodeInfo_default_instance_);
 }
 // @@protoc_insertion_point(namespace_scope)
 }  // namespace protobuf
